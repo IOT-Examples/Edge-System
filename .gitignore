@@ -54,5 +54,12 @@ env.venv/
 .DS_Store
 Thumbs.db
 
-# Environment variables
+# Environment variables - NO subir archivos con secretos reales
 .env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.*.local
+
+# Nota: .env.example sí se puede subir (es una plantilla sin valores reales)
